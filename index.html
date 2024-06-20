@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social IQ Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Social IQ Test</h1>
+    <div class="container">
+      <div class="username-input">
+        <input type="text" id="username" placeholder="Enter your username" />
+        <button onclick="startTest()">Start Test</button>
+        <p class="reminder">
+          Please remember, this test is just for fun and not a professional
+          assessment. Don't take the results too seriously or let them affect
+          your self-esteem.
+        </p>
+      </div>
+      <div id="questionnaire" class="hidden">
+        <!-- Questions will be dynamically inserted here -->
+      </div>
+      <div id="result" class="hidden">
+        <!-- Result will be displayed here -->
+      </div>
+    </div>
+
+    <footer>
+      <footer>
+        <p>
+          Designed with ❤️ by
+          <a
+            href="https://www.threads.net/@toxicf1sh"
+            target="_blank"
+            id="footer-link"
+            >ToxicF1sh</a
+          >
+        </p>
+      </footer>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
