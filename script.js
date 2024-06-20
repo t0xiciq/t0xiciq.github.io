@@ -92,7 +92,7 @@ function calculateResult() {
 
   const resultDiv = document.getElementById('result');
   resultDiv.innerHTML = `
-      <h2>${username}, your Social IQ is: ${result}</h2>
+      <h2>${username}, your Social IQ is: ${result} (${Math.round(score)})</h2>
       <img src="${gifUrl}" alt="${result}">
       <p>${explanation}</p>
   `;
